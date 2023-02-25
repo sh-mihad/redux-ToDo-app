@@ -1,0 +1,6 @@
+export const ADDED = "todos/added"
+export const TOGGLED = "todos/toggled"
+export const COLORSELECTED = "todos/colorselected"
+export const DELETED = "todos/cancel"
+export const COMPLETED = "todos/completed"
+export const CLEARCOMPLETED = "todos/clearCompleted"
