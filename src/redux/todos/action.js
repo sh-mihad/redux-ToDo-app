@@ -9,6 +9,7 @@ export const added =(todoText)=>{
 export const toggled =(todoId)=>{
     return{
         type: TOGGLED,
+        payload:todoId
 
     }
 }
@@ -16,7 +17,8 @@ export const colorSelcted =(todoId,color)=>{
     return{
         type: COLORSELECTED,
         payload:{
-            todoId,color
+            todoId,
+            color
         }
 
     }
